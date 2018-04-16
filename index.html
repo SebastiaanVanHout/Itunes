@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Itunes</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+<div id="title">Itunes Song Obtainer</div>
+<div id="info">Choose an Artist and the number of songs you want</div>
+
+<select id="artists" class = "select">
+
+    <option value="Kendrick Lamar">Kendrick Lamar</option>
+    <option value="Dora The Explora">Dora The Explorer</option>
+    <option value="Lil Pump">Lil Pump</option>
+    <option value="J Cole">J Cole</option>
+    <option value="Ariana Grande">Ariana Grande</option>
+    <option value="Niki Manaj">Niki Manaj</option>
+    <option value="Ski Mask The Slump God">Ski Mask</option>
+    <option value="Elmo">Elmo</option>
+    <option value="Carlos Matos">Carlos Matos</option>
+</select>
+
+<select id="songNumber" class = "select">
+    <option value="1">1</option>
+    <option value="5">5</option>
+    <option value="10">10</option>
+    <option value="15">15</option>
+    <option value="20">20</option>
+    <option value="25">25</option>
+
+</select>
+
+<button id="enter" class="select" onclick="searchArtist">Enter</button>
+<table id="table"></table>
+
+</body>
+
+
+

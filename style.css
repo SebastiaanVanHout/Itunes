@@ -1,0 +1,46 @@
+
+#title{
+    font-size: 50px;
+    font-family: Zapfino;
+    position: relative;
+    margin-left: 40%;
+    margin-top: 2%;
+    color: red;
+}
+#info{
+    font-size: 30px;
+    font-family: Zapfino;
+    position: relative;
+    margin-left: 35%;
+    margin-top: 2%;
+    color: red;
+}
+.select{
+    font-size: 20px;
+    font-family: Zapfino;
+    position: relative;
+    background-color: red;
+    margin-top: 2%;
+    color: white;
+
+    text-align: center;
+}
+#enter{
+    height: 72px;
+    border-radius: 5%;
+    width: 11%;
+}
+#artists{
+    position: relative;
+    margin-left: 41%;
+    height: 72px;
+    border-radius: 5%;
+    width: 11%;
+}
+#table{
+    top: 50px;
+    position: relative;
+    margin-left: 40%;
+    font-family: Zapfino;
+    color: red;
+}
